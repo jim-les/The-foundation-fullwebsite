@@ -1,0 +1,327 @@
+
+<?php
+include("../connect.php");
+session_start();
+
+if($_POST["name"]){
+	echo 'logged in'
+}
+
+?>
+
+
+<html>
+	<head>
+		<title>foundation.com</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="website-header">
+		
+				<div class="title">
+					<h2>The</h2>
+					<h1>Fountain</h1>
+					<p>Stories of our times</p>
+				</div>
+				<div class="social-icons">
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin"></i>
+					<i class="fab fa-tiktok fa-spin fa-1x"></i>            
+				
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-md ">
+  <!-- Brand -->
+  
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Opinion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Reviews</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Headlines/Careers.html">Careers</a>
+      </li> 
+		<li class="nav-item">
+        <a class="nav-link" href="C:\faundation-xampp\htdocs\The Fountain\Headlines\Technology.html">Technology</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="C:\faundation-xampp\htdocs\The Fountain\Headlines\Education.html">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="C:\faundation-xampp\htdocs\The Fountain\Headlines\Wellbieng.html">Wellbeing</a>
+      </li> 
+		<li class="nav-item">
+        <a class="nav-link" href="C:\faundation-xampp\htdocs\The Fountain\Headlines\Finances.html">Finance</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="C:\faundation-xampp\htdocs\The Fountain\Headlines\Arts.html">Arts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="C:\faundation-xampp\htdocs\The Fountain\Headlines\Features.html">Features</a>
+      </li> 
+	  <li class="nav-item">
+        <a class="nav-link" href="C:\faundation-xampp\htdocs\The Fountain\Headlines\About-Us.html">About-Us</a>
+      </li> 
+    </ul>
+  </div> 
+			</nav>
+			<div class="breaking-news-section">
+				<h4 id="btext">Fri,12 Aug 2022</h4>
+	
+			</div>
+		</header>
+		<main>
+			<article id="popular-news">
+				<div id="featured">
+					<h2>FEATURED</h2>
+					<section class="popular-news-carousel">
+						<div id="carousel" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						  </ol>
+						  <div class="carousel-inner">
+							<div class="carousel-item active">
+							  <img class="d-block w-100" src="Images/Photos/Main Themes/Stereotypes of Success/career.jpeg" alt="First slide" height="430px">
+								<div class="carousel-caption d-none d-md-block">
+									<h5><a href="C:\faundation-xampp\htdocs\The Fountain\Articles\article1.html" style="color: white;">Your success, your terms</a> </h5>
+									<p></p>
+								 </div>
+							</div>
+							<div class="carousel-item">
+							  <img class="d-block w-100" src="Images/Photos/Supporting Themes/Personal Finance/Personal Finance 1.jpg" alt="Second slide" height="430px">
+								<div class="carousel-caption d-none d-md-block">
+									<h5><a href="C:\faundation-xampp\htdocs\The Fountain\Articles\article9.html"  style="color: white;">If wishes were horses </a></h5>
+									<p></p>
+								 </div>
+							</div>
+							<div class="carousel-item">
+							  <img class="d-block w-100" src="Images/Photos/Supporting Themes/Wellbeing/wb11.jpeg" alt="Third slide" height="430px" >
+								<div class="carousel-caption d-none d-md-block">
+									<h5><a href="C:\faundation-xampp\htdocs\The Fountain\Articles\article10.html" style="color: white;">Wellbeing & support</a></h5>
+								 </div>
+							</div>
+						  </div>
+						  <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Trial & Error</span>
+						  </a>
+						  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						  </a>
+						</div>
+					</section>
+					
+				</div>
+				<div id="latest">
+					<h2>LATEST</h2>
+					<section class="news">
+						<div class="news-container">
+							<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Supporting Themes\Academics\acade9.jpeg" height="200px">
+							<p class="carousel-text"><a href="C:\faundation-xampp\htdocs\The Fountain\Articles\article12.html" style="color: white;">Zero makes a difference</a></p>				
+						</div>						
+					</section>
+					<section class="news">
+						<div class="news-container">
+							<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Main Themes\Passions _ Career Paths\afem.jpeg">
+							<p class="carousel-text"><a href="C:\faundation-xampp\htdocs\The Fountain\Articles\article4.html" style="color: white;"> Unconventional</a></p>				
+						</div>						
+					</section>
+				</div>
+				<div id="our-picks">
+					<h2>OUR PICKS</h2>
+					<section class="news">
+						<div class="news-container">
+							<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Supporting Themes\Academics\acade5.jpeg">
+							<p class="carousel-text"><a href="C:\faundation-xampp\htdocs\The Fountain\Headlines\article11.html" style="color: white;"> What do good grades count for?</a></p>				
+						</div>						
+					</section>
+					<section class="news">
+						<div class="news-container">
+							<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Supporting Themes\Leadership\lead9.jpeg" height="222px">
+							<p class="carousel-text"><a href="" style="color: white;"> Leadership</a></p>				
+						</div>						
+					</section>
+				</div>
+			</article>
+			<section class="more-news">
+				<div class="news-section">
+					<article class="world">
+						<h2>THE MUSE</h2>
+						<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Supporting Themes\Innovation _ Enterpreneurship\inno7.jpeg">
+						<h3>Escape Room</h3>
+						<p>1. In the dim lights of these four walls
+							A safe heaven from life's buzz
+							My bed a sacred alter 
+							I let my guard fall, I come out of my shell
+							I let thoughts and emotions flow
+							Pure and unabated
+							Silence like a serenading slow beat
+							The darkness a blissful ambience 
+							[…]<a href="poems/poems.html">Read more</a></p>
+					</article>
+					<article class="sport">
+						<h2>ART UNUSUAL</h2>
+						<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Main Themes\Arts _ Entrepreneurship\Danstan 3.jpeg">
+						<h3>Artistical Art 2022</h3>
+						<p>A jack of all trades, Danstan tells us what it has been like redefining the stereotypes of what an engineer should be. <br>
+							From starting a fashion line to dabbling in media production, we discussed how he dabbled in what seemed like <br>
+							opposing fields to his major: Electrical Engineering.[…]</p>
+					</article>
+				</div>
+				
+				<aside>
+					<h4>RECENT</h4>
+					<div class="recent-news">
+						<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Extras!\Art Unusual\WhatsApp Image 2022-08-11 at 2.50.09 PM.jpeg">
+						<p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+					</div>
+					<div class="recent-news">
+						<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Extras!\Art Unusual\WhatsApp Image 2022-08-11 at 2.50.09 PM.jpeg">
+						<p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+					</div>
+					<div class="recent-news">
+						<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Extras!\Art Unusual\WhatsApp Image 2022-08-11 at 2.50.09 PM.jpeg">
+						<p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+					</div>
+					<div class="recent-news">
+						<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Extras!\Art Unusual\WhatsApp Image 2022-08-11 at 2.50.09 PM.jpeg">
+						<p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+					</div>
+					<div class="recent-news">
+						<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Extras!\Art Unusual\WhatsApp Image 2022-08-11 at 2.50.09 PM.jpeg">
+						<p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+					</div>
+				</aside>
+			</section>
+			<section>
+				<div style="display: flex;">
+					<div style="width: 50px; height:50px;background-color:red;"></div>
+					<h1>Opinion</h1>
+				</div>
+				
+			
+			<div class="opnion">
+				<div>
+					<aside class="opinion-con1">
+						<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Main Themes\Work _ Remuneration\salo.jpeg" alt="upload image" width="100px">
+						<div>
+							<h3>Why i think Avacados are overrated</h3>
+							<p>By name</p>
+						</div>
+						
+					</aside>
+					<aside class="opinion-con2">
+						<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Main Themes\Work _ Remuneration\Work _ Rem 1.jpg" alt="upload image" width="100px">
+						<div>
+							<h3>Honestly, Klabuu is the Gherro</h3>
+							<p>By name</p>
+						</div>
+					</aside>
+					<aside class="opinion-con3">
+						<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Main Themes\Work _ Remuneration\Work _ Rem 1.jpg" alt="upload image" width="100px">
+						<div>
+							<h3>Why are youths not innovative</h3>
+							<p>By name</p>
+						</div>
+					</aside>
+
+				</div>
+				<aside style="padding-left: 100px; border-left: 1px solid black;">
+					<h1>Peace , love and Unity</h1>
+					<img src="C:\faundation-xampp\htdocs\The Fountain\Images\Photos\Extras!\Art Unusual\WhatsApp Image 2022-08-11 at 2.50.09 PM.jpeg" alt="add an image in the section" srcset="" width="570" height="350px">
+				</aside>
+			</div>
+			</section>
+
+			<section class="AboutUS"  onclick="openAboutUsPage()">
+				<div style="display: flex;">
+					<div style="width: 50px; height:50px; background-color:black;"></div>
+					<h1>About Us</h1>
+
+				</div>
+			</section>
+
+		</main>
+		<footer>
+			<div class="social-links">
+				<section class="about">
+					<h2>Who We are</h2>
+					<p>The Foundation aim to provide you with the latest news about the new generation</p>
+				</section>
+				<section class="Instagram">
+					<h2>Socials </h2>
+					<div class="social-icons-footer">
+						<i class="fab fa-facebook"></i>
+						<i class="fab fa-twitter-square"></i>
+						<i class="fab fa-instagram"></i>
+						<i class="fab fa-linkedin"></i>
+					</div>
+					
+				</section>
+				<section class="Subscribe">
+					<h2>Subscribe to News Today</h2>
+					<p>Enter your email address to subscribe to this blog and receive notifications of new posts by email</p>
+					<form action="../connect.php" method="post" style="background-color: gray;" id="subscribtion-form">
+						<div style="text-align: center;"><label style="color: red; text-align:center;font-weight:800; font-size:40px;">SUBSCRIBE</label></div>
+						<br><br>
+						<div style="text-align: center;">
+							<input type="text" name="name" id="name" placeholder="name">
+							<br><br>
+							<input type="email" name="email" id="email" placeholder="email eg:qwerty@gmail.com">
+							<br><br>
+							<input type="submit" value="subscribe ">
+						</div>
+						
+					
+					</form>
+					<button type="button" class="footer-buttons" onclick="subscribe()">Subscribe</button>
+				</section>
+			</div>
+			
+			<div class="copyright">
+				Copyright © 2022 The Foundation. Designed by Jim Leston.O<br>
+				Contact : <a>0799522900</a><br>
+				Email : jimleston35@gmail.com
+			</div>
+		</footer>
+		<style>
+			form{
+				position: relative;
+				display: none;
+				background-color: gray;
+			}
+			form input[type='text']{
+				width: 80%;
+			}
+			form input[type='email']{
+				width: 80%;
+			}
+			form input[type='submit']{
+				background-color: red;
+			}
+		</style>
+		<script src="script.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
